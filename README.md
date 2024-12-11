@@ -11,9 +11,9 @@ Tieu de 1.
 - [ 0x08002000 ] : **BSF** [ Memory for data sharing between Boot and Application ]
 - [ 0x08003000 ] : **Application** [[Hinh Anh 1]](https://github.com/VANTHO15/readme/blob/main/images/1.jpg)
 
-**Note:** After loading boot & application firmware, you can use [AK - Flash](https://github.com/VANTHO15/readme/blob/main/images/1.jpg) to load the application directly through the **USB** port on the KIT
-```sh
-ak_flash /dev/ttyUSB0 ak-base-kit-stm32l151-application.bin 0x08003000
+**Note:** After loading boot & application firmware, you can use [Flash](https://github.com/VANTHO15/readme/blob/main/images/1.jpg) to load the application directly through the **USB** port on the KIT
+```s
+ak_flash /dev/ttyUSB0 stm32l151-application.bin 0x08003000
 ```
 
 ### Reference
